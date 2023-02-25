@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GroceryWind</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+    <section id="title">
+
+      <div class="navbar-1">
+         
+      
+          <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+            <a class="navbar-brand" href=""><img class="brand-logo" 
+              src="./IMG-20230211-WA0006-01.jpeg" alt=""></a><div class="grocery">GroceryWind</div>
+             <div class="location">
+              <h1>Hello!</h1>
+            <p><i class="ri-map-pin-line"></i><a href="#">
+              </a> Select your address</p>
+          </div>
+              <form class="d-flex" role="search">
+                <input class="form-control2 me-2" type="search" placeholder="Search groceries, essentials and more....." aria-label="Search">
+              </form>
+
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href=""><i class="icon fa-solid fa-user"></i></a>
+                <li 
+                class="nav-item">
+                    <a class="nav-link" href=""><i class="icon2 fa-solid fa-heart"></i></a>
+                </li>
+                <li class="nav-item">
+
+                    <a class="nav-link" href="#third"><i class="icon fa-solid fa-cart-shopping"></i></a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+      </div>
+
+        <div class="navbar-2">
+
+          
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" data-animations="fadeInDown FadeInUp">
+              <ul class="navbar-nav me-auto ">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-hover="dropdown" >
+                    SHOP GROCERY
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#fourth">Grocery Essentials</a></li>
+                    <li><a class="dropdown-item" href="#">Beverages</a></li>
+                    <li><a class="dropdown-item" href="#">Packaged Products</a></li>
+                    <li><a class="dropdown-item" href="#">Vegan</a></li>
+                    <li><a class="dropdown-item" href="#">Dairy Products</a></li>
+                  </ul>
+                </li> 
+                </ul>
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    HYGIENE & CARE
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Natural care & Hygiene</a></li>
+                    <li><a class="dropdown-item" href="#">Babycare Products</a></li>
+                    <li><a class="dropdown-item" href="#">Feminine Hygiene</a></li>
+                  </ul>
+                </li></ul>
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    SHOP HEALTHY
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">By Diet</a></li>
+                    <li><a class="dropdown-item" href="#">By Allergy</a></li>                    
+                    <li><a class="dropdown-item" href="#">Health Supplements</a></li>
+                  </ul>
+                </li></ul>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    SHOP BY LIFESTYLE
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Natural</a></li>
+                    <li><a class="dropdown-item" href="#">Minimalist</a></li>                    
+                    <li><a class="dropdown-item" href="#">Gastronome</a></li>
+                  </ul>
+                </li></ul>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    SHOP BY BRAND
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Nestle</a></li>
+                    <li><a class="dropdown-item" href="#">Cadbury</a></li>                    
+                    <li><a class="dropdown-item" href="#">Fortune</a></li>
+                  </ul>
+                </li></ul>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    TODAY'S OFFERS
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Upto 25% Off</a></li>
+                    <li><a class="dropdown-item" href="#">Upto 60% Off</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Clearance Store</a></li>
+                  </ul>
+                </li></ul>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    ABOUT US
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                    <li><a class="dropdown-item" href="#">Follow Us</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                  </ul>
+                </li></ul>
+                
+             
+              
+            </div>
+          </div>
+        </nav>
+      </div>
+      </section>
+
+<!-- second -->
+
+      <section id="second">
+      
+          <!-- Title -->
+          
+
+          <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img class="carousel-img" src="./photo-1518843875459-f738682238a6-01 (1).jpeg" class="d-block" alt="first">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img class="carousel-img" src="./8D1FA3DB-AF17-4C7C-8499-5A8B03A802E0.JPEG" class="d-block " alt="secnd">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img class="carousel-img" src="./photo-1622597467836-f3285f2131b8-01.jpeg" class="d-block" alt="third">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button>
+          </div>
+        </section>
+
+<!-- THIRD -->
+
+<section class="third">
+
+  <div class="row">
+<div class="featurebox col-lg-4 ">
+  <h3 class="ucon-heading"><i class="ucon fa-solid fa-truck-fast"></i> Fast Delivery</h3>
+    <p class="ucon-text1" >Store To Door In 15 Minutes. Fastest delivery </p>
+</div>
+
+<div class="featurebox col-lg-4">
+  <h3 class="ucon-heading"><i class="ucon fa-sharp fa-solid fa-headset"></i> Support 24/7</h3>
+    <p class="ucon-text2" >Contact Us 24 hours in a Day. 7 Days A Week</p>
+</div>
+
+<div class="featurebox col-lg-4">
+  <h3 class="ucon-heading"><i class="ucon fa-solid fa-handshake"></i> 3 Days Return</h3>
+    <p class="ucon-text3" >Return Your Product if not damaged by you</p>
+</div>
+
+<div class="row-2">
+  <h2 class="row-2-heading">Shop By Category</h2>
+</div>
+
+
+
+  </div>
+</section>
+
+<section id="fourth">
+
+<div class="varieties">
+
+  <div id="mask1">
+    <img src="IMG_0195.jpg" alt="">
+    <div class="content-wrapper">
+      <p class="content-text-heading">FRUITS & VEGETABLES</p>
+      <P class="content-text-p">Stock Up Your Pantry with Fresh Fruits,
+         Vegetables And More..... <br>   </P>
+         <div class="button">
+         <span class="span-button"><button class="buttin">Shop Greenery</button></span>
+        </div>
+         
+      
+    </div>
+    <!-- <button class="btn">Shop Fruits & Vegetables</button> -->
+  </div>
+  <div id="mask2">
+    <img src="wesual-click-rsWZ-P9FbQ4-unsplash.jpg" alt="">
+    <div class="content-wrapper2">
+      <p class="content-text-heading2">BAKERY & BAKING</p>
+      <P class="content-text-p2">Flour, chips, mixes, crust, pretzels, dough....<br</P>
+      <div class="button">
+        <span class="span-button"><button class="buttin">Shop Bakery</button></span>
+       </div>
+
+  </div>
+</div>
+  <div id="mask3">
+    <img src="gaining-visuals-0hyliwOpNH0-unsplash.jpg" alt="">
+    <div class="content-wrapper3">
+      <p class="content-text-heading3">PACKAGED FOOD</p>
+      <P class="content-text-p3">Society is fast - fast food, fast cars, fast everything..... <br></P>
+      <div class="button">
+        <span class="span-button"><button class="buttin">Shop Packaged Food</button></span>
+       </div>
+  </div>
+</div>
+  <div id="mask4">
+    <img src="IMG_0196.jpg" alt="">
+    <div class="content-wrapper4">
+      <p class="content-text-heading4">GROOMING ESSENTIALS</p>
+      <P class="content-text-p4">Often, men forget to buy their grooming supplies..... <br></P>
+      <div class="button">
+        <span class="span-button"><button class="buttin">Shop Grooming</button></span>
+       </div>
+  </div> 
+</div>
+  <div id="mask5">
+    <img src="eiliv-aceron-YlAmh_X_SsE-unsplash.jpg" alt="">
+    <div class="content-wrapper5">
+      <p class="content-text-heading5">MEAT & SEAFOOD</p>
+      <P class="content-text-p5">WFS wide variety will meet your everyday needs, including game meats and rack of chicken ..... <br></P> 
+      <div class="button">
+        <span class="span-button"><button class="buttin">Shop Meat & Seafood</button></span>
+       </div>
+   </div>
+  </div>
+  <div id="mask6">
+    <img src="content-pixie-TxBQ7yLj6JU-unsplash.jpg" alt="">
+    <div class="content-wrapper6">
+      <p class="content-text-heading6">BEAUTY PRODUCTS</p>
+      <P class="content-text-p6">The best foundation you can wear is glowing healthy..... <br></P>
+      <div class="button">
+        <span class="span-button"><button class="buttin">Shop Beauty</button></span>
+       </div>
+  </div>
+</div>
+</section>
+
+<!-- FIFTH -->
+
+<section class="fifth">
+
+  <div class="bestsellers">
+    <div class="overlay">
+
+    <h1 class="bestsellers-heading">Best Selling Products</h1>
+  
+  <div class="container-shirt">
+    <div class="productImage shirtImg"></div>
+    <div class="size-shirtSize">
+      <h4>Quantity</h4>
+      <ul>
+        <li>50gm</li>
+        <li>100gm</li>
+        <li>Customize</li>
+      </ul>
+    </div>
+    <div class="price-shirtPrice">
+      <h4>PRICE</h4>
+      <span>Rs55/50gm</span>
+    </div>
+    <div class="productName-shirtName">
+      Honey
+    </div>
+  </div>
+
+
+
+
+   <div class="container-tshirt">
+    <div class="productimage tshirtImg"></div>
+    <div class="size-tshirtSize">
+      <h4>Quantity</h4>
+      <ul>
+        <li>6 Pcs</li>
+        <li>12 Pcs</li>
+        <li>Customize</li>
+      </ul>
+    </div>
+    <div class="price-tshirtPrice">
+      <h4>PRICE</h4>
+      <span>Rs60/6Pcs</span>
+    </div>
+    <div class="productname-tshirtName">
+      Eggs
+    </div>
+  </div>
+
+  <div class="container-shurt">
+    <div class="porductImuge shurtImg"></div>
+    <div class="suze-shurtSize">
+      <h4>Quantity</h4>
+      <ul>
+        <li>8 Pcs</li>
+        <li>12 Pcs</li>
+        <li>Customize</li>
+      </ul>
+    </div>
+    <div class="pruce-shurtPruce">
+      <h4>PRICE</h4>
+      <span>Rs40/8Pcs</span>
+    </div>
+    <div class="porductName-shurtName">
+      Oranges
+    </div>
+  </div> 
+
+
+  <div class="container-fourth">
+    <div class="productImage4 Img4"></div>
+    <div class="size-fourthtSize">
+      <h4>Quantity</h4>
+      <ul>
+        <li>500gm</li>
+        <li>1Kg</li>
+        <li>Customize</li>
+      </ul>
+    </div>
+    <div class="price-fourthPrice">
+      <h4>PRICE</h4>
+      <span>Rs35/500gm</span>
+    </div>
+    <div class="productName4-fourthName">
+      Onions
+    </div>
+  </div>
+
+
+  <div class="container-fifth">
+    <div class="productImage5 Img5"></div>
+    <div class="size-fifthSize">
+      <h4>Quantity</h4>
+      <ul>
+        <li>500gm</li>
+        <li>1Kg</li>
+        <li>Customize</li>
+      </ul>
+    </div>
+    <div class="price-fifthPrice">
+      <h4>PRICE</h4>
+      <span>Rs500/500gm</span>
+    </div>
+    <div class="productName5-fifthName">
+      Almonds
+    </div>
+  </div>
+
+
+  <div class="container-sixth">
+    <div class="productImage6 Img6"></div>
+    <div class="size-sixthSize">
+      <h4>Quantity</h4>
+      <ul>
+        <li>250 ml</li>
+        <li>500 ml</li>
+        <li>Customize</li>
+      </ul>
+    </div>
+    <div class="price-sixthPrice">
+      <h4>PRICE</h4>
+      <span>Rs20/250 ml</span>
+    </div>
+    <div class="productName6-sixthName">
+      Coca Cola
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+
+<section class="sixth">
+
+<div class="deals ">
+
+  <h1 class="deals-heading ">Deals Of The Day</h1>
+
+  
+  <div class="container000 ">
+    <div class="card1">
+      <img src="https://images.unsplash.com/photo-1613462847848-f65a8b231bb5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hpcHN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60">
+      <div class="content">
+        <h2>WAFERS</h2>
+        <p> You are our favorite. So we bring you your favorite chips</p>
+        <a href="#">Buy Now</a>
+      </div>
+    </div>
+    
+     <div class="card2 ">
+      <img src="https://images.unsplash.com/photo-1610705267928-1b9f2fa7f1c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80">
+      <div class="content">
+        <h2>SHAMPOO</h2>
+        <p>Hair that shines your day. </p>
+        <a href="#">Buy Now</a>
+      </div>
+    </div>
+    
+    
+    <div class="card3 ">
+      <img src="https://images.unsplash.com/photo-1561978248-bffcdd0457ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d2hlYXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60">
+      <div class="content">
+        <h2>WHEAT</h2>
+        <p>Start your first meal with five boiled eggs,greeny veggies, and a piece of whole wheat tortilla.
+         </p>
+        <a href="#">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="card4 ">
+      <img src="https://images.unsplash.com/photo-1589431262595-8d18cec6f69c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80">
+      <div class="content">
+        <h2>SPICES</h2>
+        <p>The secret of happiness is variety, but the secret of variety, like the secret of all spices, is knowing when to use it. </p>
+        <a href="#">Buy Now</a>
+      </div>
+    </div>
+
+  </div> 
+
+
+
+
+</section>
+
+
+
+<section id="seventh">
+
+
+
+<div id="simple">
+  <h1 class="add-heading ">Quick add <i class="quick fa-solid fa-arrow-turn-down"></i></h1>
+  <div id="simple1">
+    <div id="photu"></div>
+    <div id="andar1">
+      <h4>Dove Body Soap</h4> <br>
+      <div class="stur">
+        3.9<i class= "star fa-solid fa-star"></i> </div> <p id="rating">765 Ratings & 37 Reviews</p> <br><br>
+      <button class="rs">Rs 609</button> <br>
+      <button class="add">Add To Cart</button>
+    </div>
+  </div>
+  <div id="simple2">
+    <div id="photu2"></div>
+    <div id="andar2">     
+      <h4>Pampers Diaper Pants</h4> <br>
+      <div class="stur">
+        3.7<i class= "star fa-solid fa-star"></i> </div> <p id="rating">557 Ratings & 16 Reviews</p><br> <br>
+      <button class="rs2">Rs 1534.79</button> <br>
+      <button class="add2">Add To Cart</button>
+    </div>
+  </div>
+  <div id="simple3">
+    <div id="photu3"></div>
+    <div id="andar3">      
+      <h4>Vaseline Body Lotion</h4> <br>
+      <div class="stur">
+        4.0<i class= "star fa-solid fa-star"></i> </div> <p id="rating">928 Ratings & 23 Reviews</p> <br> <br>
+      <button class="rs3">Rs 247.65</button> <br>
+      <button class="add3">Add To Cart</button>
+    </div>
+  </div>
+  <div id="simple4">
+    <div id="photu4"></div>
+    <div id="andar4">
+
+      <h4>Tata Sampann Toor Dal</h4> <br> <br>
+      <div class="stur">
+      4.2<i class= "star fa-solid fa-star"></i> </div> <p id="rating4">952 Ratings & 563 Reviews</p> <br>
+      <button class="rs4">Rs 155.35</button> <br>
+      <button class="add4">Add To Cart</button>
+    </div>
+  </div>
+  <div id="simple5">
+    <div id="photu5"></div>
+    <div id="andar5">
+      <h4>Ariel Detergent Powder</h4> <br>
+      <div class="stur">
+        4.5<i class= "star fa-solid fa-star"></i> </div> <p id="rating5">3237 Ratings & 371 Reviews</p> <br><br>
+      <button class="rs5">Rs 315</button> <br>
+      <button class="add5">Add To Cart</button>
+    </div>
+  </div>
+  <div id="simple6">
+    <div id="photu6"></div>
+    <div id="andar6">
+      <h4>Eveready LED Bulb</h4> <br>
+      <div class="stur">
+        3.9<i class= "star fa-solid fa-star"></i> </div> <p id="rating">462 Ratings & 83 Reviews</p> <br> <br>
+      <button class="rs6">Rs 99</button> <br>
+      <button class="add6">Add To Cart</button>
+    </div>
+  </div>
+  <div id="simple7">
+    <div id="photu7"></div>
+    <div id="andar7">
+      <h4>Bru Instant Coffee</h4> <br>
+      <div class="stur">
+        4.7<i class= "star fa-solid fa-star"></i> </div> <p id="rating7">3552 Ratings & 172 Reviews</p> <br> <br>
+      <button class="rs7">Rs 298.5</button> <br>
+      <button class="add7">Add To Cart</button>
+    </div>
+  </div>
+  <div id="simple8">
+    <div id="photu8"></div>
+    <div id="andar8">
+      <h4>Garnier Men Face Wash</h4> <br>
+      <div class="stur">
+        4.7<i class= "star fa-solid fa-star"></i> </div> <p id="rating">1552 Ratings & 69 Reviews</p> <br> <br>
+      <button class="rs8">Rs 211.5</button> <br>
+      <button class="add8">Add To Cart</button>
+    </div>
+  </div>
+  <button id="view">View all</button>
+  
+</div>
+
+
+</section>
+
+
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+ <section class="hero-section">
+  <h1 class="hero-heading">Satisfied customers </h1>
+   <div class="card-grid">
+    <a class="card-one" href="#">
+      <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1564956213070-84f5a0cb2407?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60)"></div>
+      <div class="card__content">
+        
+        <h3 class="card__heading">Natural Fresh Juice <br><i class= "sitara fa-solid fa-star"></i><i class= "sitara fa-solid fa-star"></i><i class= "sitara fa-solid fa-star"></i><i class= "sitara fa-solid fa-star"></i><i class= "sitara fa-solid fa-star"></i> <h6 class="last">(173)</h6> <br></h3>
+        <p class="card__category"> <img src="data:image/jpeg;base64,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" alt="">  <h4 class="nice">Organic juice</h4> <h6 class="good"> The taste of juice  was fabulous and i got the order within 15min.  </h6></p>
+      </div>
+    </a> 
+    <a class="card-one" href="#">
+      <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1543364195-bfe6e4932397?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHZlZ2V0YWJsZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60)"></div>
+      <div class="card__content">
+        <h3 class="card__heading">Fresh Vegetables <br><i class= "sitara fa-solid fa-star"></i><i class= "sitara fa-solid fa-star"></i><i class= "sitara fa-solid fa-star"></i><i class= "sitara fa-solid fa-star"></i><i class= "sitara fa-solid fa-star"></i> <h6 class="last">(747)</h6></h3>
+        <p class="card__category"> <img src="data:image/jpeg;base64,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" alt=""> <h4 class="nice">Freshing veggies</h4> <h6 class="good"> The quality of vegetables was up to the expectation and it was very fresh...</h6></p>
+      </div>
+    </a>
+    <a class="card-one" href="#">
+      <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1590999674701-143086777c8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80)"></div>
+      <div class="card__content">
+       
+        <h3 class="card__heading">Virgin Olive Oil <br><i class= "sitara fa-solid fa-star"></i><i class= "sitara fa-solid fa-star"></i><i class= "sitara fa-solid fa-star"></i><i class= "sitara fa-solid fa-star"></i><i class= "sitara fa-solid fa-star"></i><h6 class="last3">(32)</h6></h3>
+        <p class="card__category"> <img src="https://pbs.twimg.com/profile_images/1287667755278151686/oilcmC2R_400x400.jpg" alt=""> <h4 class="nice">100% pure</h4> <h6 class="good"> the price of olive oil on this website is cheaper than other ones  </h6></p>
+      </div>
+    </li>
+    <a class="card-one" href="#">
+      <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1605091862660-a8d1d770dfc9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80)"></div>
+      <div class="card__content">
+        
+        <h3 class="card__heading">Eau De Parfum <br><i class= "sitara fa-solid fa-star"></i><i class= "sitara fa-solid fa-star"></i><i class= "sitara fa-solid fa-star"></i><i class= "sitara fa-solid fa-star"></i><i class= "sitara fa-solid fa-star"></i><h6 class="last4">(12)</h6></h3>
+        <p class="card__category"> <img src="data:image/jpeg;base64,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" alt="">  <h4 class="nice">Captivating smell</h4> <h6 class="good">product was 100% original and the darky smell of the perfume was preety awesome. </h6></p>
+      </div>
+     </a> 
+  </div>
+</section> 
+
+  
+
+
+
+<footer class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo">GroceryWind</h1>
+        
+    <h2>Contact</h2>
+    
+    <address>
+      5534 Somewhere In. The World 22193-10212<br>
+          
+      <a class="footer__btn1" href="mailto:example@gmail.com">Email Us</a>
+    </address>
+  </div>
+
+ 
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Media</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Online</a>
+        </li>
+
+        <li>
+          <a href="#">Print</a>
+        </li>
+            
+        <li>
+          <a href="#">Alternative Ads</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item nav__item--extra">
+      <h2 class="nav__title">Help</h2>
+      
+      <ul class="nav__ul nav__ul--extra">
+        <li>
+          <a href="#">FAQ'S</a>
+        </li>
+        
+        <li>
+          <a href="#">Contact Us</a>
+        </li>
+        
+        <li>
+          <a href="#">About Us</a>
+        </li>
+        
+        <li>
+          <a href="#">Follow Us</a>
+        </li>
+        
+        
+    
+    <li class="nav__item">
+      <h2 class="nav__title">Legal</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+        
+        <li>
+          <a href="#">Terms of Use</a>
+        </li>
+        
+        <li>
+          <a href="#">Sitemap</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2 class="down">Download Our Mobile App Now</h2>
+  
+  <button type="button" class="turu1 btn btn-outline-light btn-lg"><i class="fur fa-brands fa-apple"></i><p class="fir"> Download</p></button>
+  <button type="button" class="turu2 btn btn-outline-light btn-lg"><i class="fur fa-brands fa-google-play"></i><p class="fir2"> Download</p></button>
+  <div class="legal">
+    <p>&copy; 2023 GroceryWind. All rights reserved.</p>
+    
+    <div class="legal__links">
+      <span>Made with <span class="heart">♥</span> from Bhopal</span>
+    </div>
+  </div>
+
+  <i class="lob1 fa-brands fa-instagram"></i>
+  <i class="lob2 fa-brands fa-facebook"></i>
+  <i class="lob3 fa-brands fa-twitter"></i>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+       
+
+        
+
+  
+
+  <script src="https://kit.fontawesome.com/5aaaabc055.js" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+ <script src="index.js">JSON</script>
+</body>
+
+</html>
